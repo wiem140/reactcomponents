@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  background-color: cadetblue;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+img{
+padding-left: auto;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+h1{
+  font-size: 30px;
+  text-align: center;
+  color: red;
+
+}
+p{
+  text-align: center;
+  color: black;
+  font-size: 25px;
+
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
